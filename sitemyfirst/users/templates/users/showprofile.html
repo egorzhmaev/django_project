@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Профиль</h1>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table>
+    <tr>
+        <td valign=top align=left width=20%>
+            <p><img src="{{ profile.photo.url }}">
+        <td width=800св px>
+            <p>Никнейм: {{ profile.username}}
+            <p>Дата рождения: {{ profile.date_birth }}
+            <p>{{form.email.label}}: {{ profile.email}}
+            <p>Заходил: {{ profile.last_login}} | {% if profile.is_online %}Онлайн{% else %}Не в сети{% endif %}
+            <p>{{form.first_name.label}}: {{ profile.first_name}}
+            <p>{{form.last_name.label}}: {{ profile.last_name}}
+            <p>
+            {% if profile.username == user.username %}
+            <a href="{% url 'users:profile' %}" class="edit-button">Редактировать профиль</a>
+            {% endif %}
+    </tr>
+    </table>
+</form>
+{% endblock %}

@@ -1,0 +1,2098 @@
+[
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Категория",
+        "content_type": [
+            "women",
+            "category"
+        ],
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Категория",
+        "content_type": [
+            "women",
+            "category"
+        ],
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Категория",
+        "content_type": [
+            "women",
+            "category"
+        ],
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Категория",
+        "content_type": [
+            "women",
+            "category"
+        ],
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add husband",
+        "content_type": [
+            "women",
+            "husband"
+        ],
+        "codename": "add_husband"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change husband",
+        "content_type": [
+            "women",
+            "husband"
+        ],
+        "codename": "change_husband"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete husband",
+        "content_type": [
+            "women",
+            "husband"
+        ],
+        "codename": "delete_husband"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view husband",
+        "content_type": [
+            "women",
+            "husband"
+        ],
+        "codename": "view_husband"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add tag post",
+        "content_type": [
+            "women",
+            "tagpost"
+        ],
+        "codename": "add_tagpost"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change tag post",
+        "content_type": [
+            "women",
+            "tagpost"
+        ],
+        "codename": "change_tagpost"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete tag post",
+        "content_type": [
+            "women",
+            "tagpost"
+        ],
+        "codename": "delete_tagpost"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view tag post",
+        "content_type": [
+            "women",
+            "tagpost"
+        ],
+        "codename": "view_tagpost"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add upload files",
+        "content_type": [
+            "women",
+            "uploadfiles"
+        ],
+        "codename": "add_uploadfiles"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change upload files",
+        "content_type": [
+            "women",
+            "uploadfiles"
+        ],
+        "codename": "change_uploadfiles"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete upload files",
+        "content_type": [
+            "women",
+            "uploadfiles"
+        ],
+        "codename": "delete_uploadfiles"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view upload files",
+        "content_type": [
+            "women",
+            "uploadfiles"
+        ],
+        "codename": "view_uploadfiles"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Известные женщины",
+        "content_type": [
+            "women",
+            "women"
+        ],
+        "codename": "add_women"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Известные женщины",
+        "content_type": [
+            "women",
+            "women"
+        ],
+        "codename": "change_women"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Известные женщины",
+        "content_type": [
+            "women",
+            "women"
+        ],
+        "codename": "delete_women"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Известные женщины",
+        "content_type": [
+            "women",
+            "women"
+        ],
+        "codename": "view_women"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "users",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "users",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "users",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "users",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add comment",
+        "content_type": [
+            "django_comments",
+            "comment"
+        ],
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change comment",
+        "content_type": [
+            "django_comments",
+            "comment"
+        ],
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": [
+            "django_comments",
+            "comment"
+        ],
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view comment",
+        "content_type": [
+            "django_comments",
+            "comment"
+        ],
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can moderate comments",
+        "content_type": [
+            "django_comments",
+            "comment"
+        ],
+        "codename": "can_moderate"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add comment flag",
+        "content_type": [
+            "django_comments",
+            "commentflag"
+        ],
+        "codename": "add_commentflag"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change comment flag",
+        "content_type": [
+            "django_comments",
+            "commentflag"
+        ],
+        "codename": "change_commentflag"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete comment flag",
+        "content_type": [
+            "django_comments",
+            "commentflag"
+        ],
+        "codename": "delete_commentflag"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view comment flag",
+        "content_type": [
+            "django_comments",
+            "commentflag"
+        ],
+        "codename": "view_commentflag"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add site",
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "codename": "add_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change site",
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "codename": "change_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete site",
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "codename": "delete_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view site",
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "codename": "view_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Комментарий",
+        "content_type": [
+            "women",
+            "comment"
+        ],
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Комментарий",
+        "content_type": [
+            "women",
+            "comment"
+        ],
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Комментарий",
+        "content_type": [
+            "women",
+            "comment"
+        ],
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Комментарий",
+        "content_type": [
+            "women",
+            "comment"
+        ],
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Обратная связь",
+        "content_type": [
+            "women",
+            "feedback"
+        ],
+        "codename": "add_feedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Обратная связь",
+        "content_type": [
+            "women",
+            "feedback"
+        ],
+        "codename": "change_feedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Обратная связь",
+        "content_type": [
+            "women",
+            "feedback"
+        ],
+        "codename": "delete_feedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Обратная связь",
+        "content_type": [
+            "women",
+            "feedback"
+        ],
+        "codename": "view_feedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Рейтинг",
+        "content_type": [
+            "women",
+            "rating"
+        ],
+        "codename": "add_rating"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Рейтинг",
+        "content_type": [
+            "women",
+            "rating"
+        ],
+        "codename": "change_rating"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Рейтинг",
+        "content_type": [
+            "women",
+            "rating"
+        ],
+        "codename": "delete_rating"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Рейтинг",
+        "content_type": [
+            "women",
+            "rating"
+        ],
+        "codename": "view_rating"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Просмотр",
+        "content_type": [
+            "women",
+            "viewcount"
+        ],
+        "codename": "add_viewcount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Просмотр",
+        "content_type": [
+            "women",
+            "viewcount"
+        ],
+        "codename": "change_viewcount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Просмотр",
+        "content_type": [
+            "women",
+            "viewcount"
+        ],
+        "codename": "delete_viewcount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view Просмотр",
+        "content_type": [
+            "women",
+            "viewcount"
+        ],
+        "codename": "view_viewcount"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "0sfpno9q8ru710qyc8182jdfwl1f4hmp",
+    "fields": {
+        "session_data": "eyJfcGFzc3dvcmRfcmVzZXRfdG9rZW4iOiJjMzhkdXotNjQ5NGI3MTg3NDg0MWE4N2Q1ZGJlMjc4ZTg0NDM5Y2QifQ:1rg6V2:eD6J5Wjnqh3Jc7uXy12nJ_kgrq2OqBCsJpkQ5Maa07U",
+        "expire_date": "2024-03-15T17:16:44.278Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3dewqsb6qwa8hv4csbdv4dk8hs9udwct",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFCh8e4dN9vIAMDUjU0Ke3K-O_apAvd3nPOfYlA21rD1vMSJhYXocTpd4uUHrntgO_UbrNMc1uXKcpdkQftcpw5P6-H-3dQqddvnQobcNqDyYjKoTKDYiRk5z0CIGXPZKNPXmt7Bsg2Ju1iQl1spDKI9wfJzDec:1qi9lk:BtHEQYjA76p1zuVuXuarhS7OCoc_bMidipeUCJTZppI",
+        "expire_date": "2023-10-02T08:38:12.731Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "k99yi7m61btx6mp8glv0d2cltgriauiy",
+    "fields": {
+        "session_data": "e30:1rfOaU:WXK6F9D_sBzuH-vXG33m4ARmS4QYK3GCXJnC1MNQb6k",
+        "expire_date": "2024-03-13T18:23:26.681Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rvzjuzoq25ugoh3jcmyzr4qysd06bd1e",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnx36ak5wzW7npNAiiW4qRC3B0ipYD2zcx7iQzbOuat85KnIs5CidPvhkAPnndQ7jDfmqQ2r8uEclfkQbu8tsLPy-H-HYzQx2_thsjeAYLhgGh1AldAQQJtPVmmWitgCsZE1p4JPbIpwVAinTCqQbw_Cx447w:1rEwdD:IQgVntAYTutoLeKE7U4ggAoPWLsCo0cVq38dJBJ30oI",
+        "expire_date": "2023-12-31T19:16:55.825Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vudqjzl43tbqaxcrtsoa1eoqzovonp6r",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnsxl9K-pzB8sZrHEC2FCcV4u4QKQW0b2beS4S4rSVsnZcwJ3ERWpx-N4rTg-sO0j3WW5NTq-syk9wVedAux5b4eT3cv4MSe_nWlhggW9SIxik6e28sReaMjhW6gYEsw-AhT2hAW8gqR6M8ZmJSSYn3B9JlN7E:1rfiJ5:DbTg3fjY6sZjxgGto7J8HL9Q2EhZF3dyvW26jCMvt9Q",
+        "expire_date": "2024-03-14T15:26:47.408Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zij1j595jdb3oy69r5s51b8vvwnzswsz",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hChMIBL956BzMBUqgaS0q6MdzckXej2v_f-W0TctxL3zmtcsrgIEKffjTA9uQ6QH1jvTaZWt3UhORR50C5vLfPrerh_BwV7GXWeMQEFoyFYpZMB0urslXXosmHHoG2eEs42eGLnA4EyiBMbNDhhEJ8v6YA4Cw:1rez1b:XMWdawzbEeqjLS-XQJNqMQl-ivSCprVB6YptrRiWExo",
+        "expire_date": "2024-03-12T15:05:43.672Z"
+    }
+},
+{
+    "model": "women.category",
+    "pk": 1,
+    "fields": {
+        "name": "Актрисы",
+        "slug": "aktrisy"
+    }
+},
+{
+    "model": "women.category",
+    "pk": 2,
+    "fields": {
+        "name": "Певицы",
+        "slug": "pevicy"
+    }
+},
+{
+    "model": "women.category",
+    "pk": 3,
+    "fields": {
+        "name": "Спортсменки",
+        "slug": "sportsmenki"
+    }
+},
+{
+    "model": "women.tagpost",
+    "pk": 1,
+    "fields": {
+        "tag": "Блондинки",
+        "slug": "blonde"
+    }
+},
+{
+    "model": "women.tagpost",
+    "pk": 2,
+    "fields": {
+        "tag": "Брюнетки",
+        "slug": "brunetky"
+    }
+},
+{
+    "model": "women.tagpost",
+    "pk": 3,
+    "fields": {
+        "tag": "Оскар",
+        "slug": "oskar"
+    }
+},
+{
+    "model": "women.tagpost",
+    "pk": 4,
+    "fields": {
+        "tag": "Олимпиада",
+        "slug": "olimpiada"
+    }
+},
+{
+    "model": "women.tagpost",
+    "pk": 5,
+    "fields": {
+        "tag": "Высокие",
+        "slug": "visokie"
+    }
+},
+{
+    "model": "women.tagpost",
+    "pk": 6,
+    "fields": {
+        "tag": "Средние",
+        "slug": "srednie"
+    }
+},
+{
+    "model": "women.tagpost",
+    "pk": 7,
+    "fields": {
+        "tag": "Низкие",
+        "slug": "niskie"
+    }
+},
+{
+    "model": "women.husband",
+    "pk": 1,
+    "fields": {
+        "name": "Брэд Питт",
+        "age": 30,
+        "m_count": 3
+    }
+},
+{
+    "model": "women.husband",
+    "pk": 2,
+    "fields": {
+        "name": "Том Акерли",
+        "age": 31,
+        "m_count": 1
+    }
+},
+{
+    "model": "women.husband",
+    "pk": 3,
+    "fields": {
+        "name": "Дэниэл Модер",
+        "age": 25,
+        "m_count": 1
+    }
+},
+{
+    "model": "women.husband",
+    "pk": 4,
+    "fields": {
+        "name": "Кук Марони",
+        "age": 40,
+        "m_count": 1
+    }
+},
+{
+    "model": "women.viewcount",
+    "pk": 1,
+    "fields": {
+        "women": 15,
+        "ip_address": "127.0.0.1",
+        "viewed_on": "2024-02-27T16:05:55.630Z"
+    }
+},
+{
+    "model": "women.viewcount",
+    "pk": 2,
+    "fields": {
+        "women": 14,
+        "ip_address": "127.0.0.1",
+        "viewed_on": "2024-02-27T16:06:01.581Z"
+    }
+},
+{
+    "model": "women.viewcount",
+    "pk": 3,
+    "fields": {
+        "women": 10,
+        "ip_address": "127.0.0.1",
+        "viewed_on": "2024-02-29T16:29:47.593Z"
+    }
+},
+{
+    "model": "women.viewcount",
+    "pk": 4,
+    "fields": {
+        "women": 13,
+        "ip_address": "172.19.0.1",
+        "viewed_on": "2024-03-01T16:25:08.327Z"
+    }
+},
+{
+    "model": "women.viewcount",
+    "pk": 5,
+    "fields": {
+        "women": 10,
+        "ip_address": "172.19.0.1",
+        "viewed_on": "2024-03-01T16:25:13.849Z"
+    }
+},
+{
+    "model": "women.viewcount",
+    "pk": 6,
+    "fields": {
+        "women": 15,
+        "ip_address": "172.19.0.1",
+        "viewed_on": "2024-03-01T16:46:15.173Z"
+    }
+},
+{
+    "model": "women.viewcount",
+    "pk": 7,
+    "fields": {
+        "women": 16,
+        "ip_address": "172.19.0.1",
+        "viewed_on": "2024-03-01T16:57:47.232Z"
+    }
+},
+{
+    "model": "users.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$qBHw5NoH4ghH05L8Akmc86$ftyR4sJkjN8b3XYqJ1ecC+66vk4u01Dc2Ax+yBbIQdk=",
+        "last_login": "2024-03-01T15:58:29.902Z",
+        "is_superuser": false,
+        "username": "egor_zhmaev",
+        "first_name": "Егор",
+        "last_name": "Жмаев",
+        "email": "zhmaev.fm@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-02-14T14:56:38.479Z",
+        "photo": "users/2024/02/14/IMG_0221.jpeg",
+        "date_birth": "1924-01-01T00:00:00Z",
+        "slug": "egor-zhmaev",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$3lJwR5y3N592ConnIRjq2U$FA17e4R9Jz9Vw8s4yqgCP+jE8FTNyX7SUAjGVJ906Wg=",
+        "last_login": "2024-03-01T17:05:58.797Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@mail.ru",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-02-14T15:02:00.210Z",
+        "photo": "users/2024/02/21/default.png",
+        "date_birth": "1924-01-01T00:00:00Z",
+        "slug": "admin",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$RZ8KHjeHDtSZhUpASJ5XBv$K4evVHxrx3E5dKzhz8mdjZLgeqWnPcvOx+PnP5C6Ugg=",
+        "last_login": "2024-02-28T17:31:05.835Z",
+        "is_superuser": false,
+        "username": "tanya_zhmaeva",
+        "first_name": "Татьяна",
+        "last_name": "Жмаева",
+        "email": "zhmaev.smm@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-02-20T19:22:01.836Z",
+        "photo": "users/2024/02/21/default.png",
+        "date_birth": null,
+        "slug": "tanya-zhmaeva",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$JQyc82i1HFUn5dgaeWbQHV$kGQVkTJ7zU2eu5cd/9aTSBwmBLAU/UwzMBjcLeKe4X8=",
+        "last_login": "2024-02-20T19:48:35.493Z",
+        "is_superuser": false,
+        "username": "user",
+        "first_name": "user",
+        "last_name": "user",
+        "email": "user@user.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-02-20T19:48:18.623Z",
+        "photo": "default.png",
+        "date_birth": null,
+        "slug": "user",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$9m9M503gbF52uWPjfb08HT$kGj0pd3Ww0VgMvbtwUAdxBCjV8DXIsPVcqWn53qXy0Y=",
+        "last_login": "2024-02-29T15:26:38.214Z",
+        "is_superuser": false,
+        "username": "egor",
+        "first_name": "егор",
+        "last_name": "егорыч",
+        "email": "petrefimenko9@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-02-29T14:40:03.405Z",
+        "photo": "default.png",
+        "date_birth": null,
+        "slug": "egor",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$3HYML5Cr6cp3dwpItS6K2B$3ZDGWtxv2c5h3/lzetWv42hsIvPWcOGKoHVYeNOG2Pk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "zhmaev",
+        "first_name": "Егор",
+        "last_name": "Жмаев",
+        "email": "e.zhmaev@yandex.ru",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2024-03-01T17:23:18.593Z",
+        "photo": "default.png",
+        "date_birth": null,
+        "slug": "zhmaev",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "women.rating",
+    "pk": 10,
+    "fields": {
+        "women": 14,
+        "user": [
+            "tanya_zhmaeva"
+        ],
+        "value": 1,
+        "time_create": "2024-02-27T15:07:08.079Z",
+        "ip_address": "127.0.0.1"
+    }
+},
+{
+    "model": "women.rating",
+    "pk": 11,
+    "fields": {
+        "women": 13,
+        "user": [
+            "tanya_zhmaeva"
+        ],
+        "value": 1,
+        "time_create": "2024-02-27T15:07:10.123Z",
+        "ip_address": "127.0.0.1"
+    }
+},
+{
+    "model": "women.rating",
+    "pk": 12,
+    "fields": {
+        "women": 15,
+        "user": [
+            "tanya_zhmaeva"
+        ],
+        "value": 1,
+        "time_create": "2024-02-27T15:07:27.778Z",
+        "ip_address": "127.0.0.1"
+    }
+},
+{
+    "model": "women.rating",
+    "pk": 13,
+    "fields": {
+        "women": 10,
+        "user": [
+            "egor_zhmaev"
+        ],
+        "value": 1,
+        "time_create": "2024-02-29T16:29:45.998Z",
+        "ip_address": "127.0.0.1"
+    }
+},
+{
+    "model": "women.rating",
+    "pk": 14,
+    "fields": {
+        "women": 13,
+        "user": null,
+        "value": 1,
+        "time_create": "2024-03-01T16:25:02.940Z",
+        "ip_address": "172.19.0.1"
+    }
+},
+{
+    "model": "women.rating",
+    "pk": 15,
+    "fields": {
+        "women": 11,
+        "user": null,
+        "value": 1,
+        "time_create": "2024-03-01T16:25:04.619Z",
+        "ip_address": "172.19.0.1"
+    }
+},
+{
+    "model": "women.rating",
+    "pk": 16,
+    "fields": {
+        "women": 10,
+        "user": null,
+        "value": 1,
+        "time_create": "2024-03-01T16:25:05.563Z",
+        "ip_address": "172.19.0.1"
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 1,
+    "fields": {
+        "subject": "Привет",
+        "email": "zhmaev.smm@gmail.com",
+        "content": "ещё раз",
+        "time_create": "2024-02-26T14:18:43.043Z",
+        "ip_address": "127.0.0.1",
+        "user": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 2,
+    "fields": {
+        "subject": "Привет!",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "Всё работает!",
+        "time_create": "2024-02-26T14:34:08.891Z",
+        "ip_address": "127.0.0.1",
+        "user": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 3,
+    "fields": {
+        "subject": "проверка",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "raksdjgr",
+        "time_create": "2024-02-26T14:38:15.948Z",
+        "ip_address": "127.0.0.1",
+        "user": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 4,
+    "fields": {
+        "subject": "12345",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "12345",
+        "time_create": "2024-02-26T14:39:35.780Z",
+        "ip_address": "127.0.0.1",
+        "user": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 5,
+    "fields": {
+        "subject": "12345",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "123456",
+        "time_create": "2024-02-26T14:44:04.687Z",
+        "ip_address": "127.0.0.1",
+        "user": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 6,
+    "fields": {
+        "subject": "12345",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "Работает!",
+        "time_create": "2024-02-26T14:53:45.411Z",
+        "ip_address": "127.0.0.1",
+        "user": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 8,
+    "fields": {
+        "subject": "Привет",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "Проверка из контейнера",
+        "time_create": "2024-03-01T15:45:43.766Z",
+        "ip_address": "172.19.0.1",
+        "user": [
+            "egor_zhmaev"
+        ]
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 9,
+    "fields": {
+        "subject": "письмо",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "проба",
+        "time_create": "2024-03-01T16:58:54.338Z",
+        "ip_address": "172.19.0.1",
+        "user": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 10,
+    "fields": {
+        "subject": "Письмо",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "Проверка селери",
+        "time_create": "2024-03-01T17:06:44.471Z",
+        "ip_address": "172.19.0.1",
+        "user": [
+            "admin"
+        ]
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 11,
+    "fields": {
+        "subject": "Привет",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "Проверка селери",
+        "time_create": "2024-03-01T17:17:50.578Z",
+        "ip_address": "172.19.0.1",
+        "user": null
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 12,
+    "fields": {
+        "subject": "to` hf[",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "afasfhghjjk",
+        "time_create": "2024-03-01T17:26:24.894Z",
+        "ip_address": "172.19.0.1",
+        "user": null
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 13,
+    "fields": {
+        "subject": "to` hfp",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "asdasdasd",
+        "time_create": "2024-03-01T17:29:09.430Z",
+        "ip_address": "172.19.0.1",
+        "user": null
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 14,
+    "fields": {
+        "subject": "укйцйцу",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "asdasda",
+        "time_create": "2024-03-01T17:31:58.329Z",
+        "ip_address": "172.19.0.1",
+        "user": null
+    }
+},
+{
+    "model": "women.feedback",
+    "pk": 15,
+    "fields": {
+        "subject": "qweqwe",
+        "email": "zhmaev.fm@gmail.com",
+        "content": "123123",
+        "time_create": "2024-03-01T17:49:08.721Z",
+        "ip_address": "172.19.0.1",
+        "user": null
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 1,
+    "fields": {
+        "women": 15,
+        "author": [
+            "egor_zhmaev"
+        ],
+        "content": "Первый комментарий",
+        "time_create": "2024-02-18T14:44:53.789Z",
+        "time_update": "2024-02-18T14:44:53.790Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 6,
+        "tree_id": 1,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 2,
+    "fields": {
+        "women": 15,
+        "author": [
+            "egor_zhmaev"
+        ],
+        "content": "egor_zhmaev, Второй комментарий",
+        "time_create": "2024-02-18T14:52:36.118Z",
+        "time_update": "2024-02-18T14:52:36.118Z",
+        "status": "published",
+        "parent": 1,
+        "lft": 2,
+        "rght": 5,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 3,
+    "fields": {
+        "women": 15,
+        "author": [
+            "egor_zhmaev"
+        ],
+        "content": "egor_zhmaev, Третий комментарий",
+        "time_create": "2024-02-18T14:57:05.239Z",
+        "time_update": "2024-02-18T14:57:05.239Z",
+        "status": "published",
+        "parent": 2,
+        "lft": 3,
+        "rght": 4,
+        "tree_id": 1,
+        "level": 2
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 4,
+    "fields": {
+        "women": 15,
+        "author": [
+            "egor_zhmaev"
+        ],
+        "content": "Опять первый",
+        "time_create": "2024-02-18T14:58:30.838Z",
+        "time_update": "2024-02-18T14:58:30.838Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 4,
+        "tree_id": 2,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 5,
+    "fields": {
+        "women": 15,
+        "author": [
+            "egor_zhmaev"
+        ],
+        "content": "egor_zhmaev, опять второй",
+        "time_create": "2024-02-18T15:04:09.545Z",
+        "time_update": "2024-02-18T15:04:09.545Z",
+        "status": "published",
+        "parent": 4,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 6,
+    "fields": {
+        "women": 14,
+        "author": [
+            "egor_zhmaev"
+        ],
+        "content": "Первый коммент",
+        "time_create": "2024-02-18T15:07:00.178Z",
+        "time_update": "2024-02-18T15:07:00.178Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 4,
+        "tree_id": 3,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 7,
+    "fields": {
+        "women": 14,
+        "author": [
+            "admin"
+        ],
+        "content": "egor_zhmaev, Я админ",
+        "time_create": "2024-02-18T15:10:04.608Z",
+        "time_update": "2024-02-18T15:10:04.608Z",
+        "status": "published",
+        "parent": 6,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 8,
+    "fields": {
+        "women": 15,
+        "author": [
+            "admin"
+        ],
+        "content": "Мой комментарий",
+        "time_create": "2024-02-20T19:13:27.653Z",
+        "time_update": "2024-02-20T19:13:27.653Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 4,
+        "tree_id": 4,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 9,
+    "fields": {
+        "women": 15,
+        "author": [
+            "admin"
+        ],
+        "content": "admin, Мой второй комментарий",
+        "time_create": "2024-02-20T19:16:43.303Z",
+        "time_update": "2024-02-20T19:16:43.303Z",
+        "status": "published",
+        "parent": 8,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 10,
+    "fields": {
+        "women": 14,
+        "author": [
+            "tanya_zhmaeva"
+        ],
+        "content": "Привет",
+        "time_create": "2024-02-20T19:22:17.120Z",
+        "time_update": "2024-02-20T19:22:17.120Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 5,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 11,
+    "fields": {
+        "women": 14,
+        "author": [
+            "tanya_zhmaeva"
+        ],
+        "content": "ещё раз",
+        "time_create": "2024-02-20T19:33:50.769Z",
+        "time_update": "2024-02-20T19:33:50.769Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 6,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 12,
+    "fields": {
+        "women": 15,
+        "author": [
+            "user"
+        ],
+        "content": "любой комментарий",
+        "time_create": "2024-02-20T19:50:10.618Z",
+        "time_update": "2024-02-20T19:50:10.618Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 7,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 13,
+    "fields": {
+        "women": 15,
+        "author": [
+            "user"
+        ],
+        "content": "ну пожалуйста",
+        "time_create": "2024-02-20T19:51:31.756Z",
+        "time_update": "2024-02-20T19:51:31.756Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 8,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 14,
+    "fields": {
+        "women": 15,
+        "author": [
+            "user"
+        ],
+        "content": "ещё",
+        "time_create": "2024-02-20T19:53:12.148Z",
+        "time_update": "2024-02-20T19:53:12.148Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 9,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 15,
+    "fields": {
+        "women": 15,
+        "author": [
+            "user"
+        ],
+        "content": "123",
+        "time_create": "2024-02-20T19:54:55.535Z",
+        "time_update": "2024-02-20T19:54:55.535Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 10,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 16,
+    "fields": {
+        "women": 15,
+        "author": [
+            "user"
+        ],
+        "content": "1234",
+        "time_create": "2024-02-20T19:55:53.725Z",
+        "time_update": "2024-02-20T19:55:53.725Z",
+        "status": "published",
+        "parent": null,
+        "lft": 1,
+        "rght": 4,
+        "tree_id": 11,
+        "level": 0
+    }
+},
+{
+    "model": "women.comment",
+    "pk": 17,
+    "fields": {
+        "women": 15,
+        "author": [
+            "user"
+        ],
+        "content": "user, 123456",
+        "time_create": "2024-02-20T19:56:59.100Z",
+        "time_update": "2024-02-20T19:56:59.100Z",
+        "status": "published",
+        "parent": 16,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "women.women",
+    "pk": 1,
+    "fields": {
+        "title": "Анджелина Джоли",
+        "slug": "andzhelina-dzholi",
+        "content": "Анджелина Джоли (англ. Angelina Jolie[7], при рождении Войт (англ. Voight), ранее Джоли Питт (англ. Jolie Pitt); род. 4 июня 1975, Лос-Анджелес, Калифорния, США) — американская актриса кино, телевидения и озвучивания, кинорежиссёр, сценаристка, продюсер, фотомодель, посол доброй воли ООН.\r\n\r\nОбладательница премии «Оскар», трёх премий «Золотой глобус» (первая актриса в истории, три года подряд выигравшая премию) и двух «Премий Гильдии киноактёров США».\r\n\r\nДебютировала в кино в 1982 году, сыграв роль в комедийном фильме «В поисках выхода» (где снимались также её отец и мать)[8], однако известность получила после того, как сыграла героиню видеоигр Лару Крофт в фильмах «Лара Крофт: Расхитительница гробниц» и «Лара Крофт: Расхитительница гробниц 2 — Колыбель жизни».\r\n\r\nВ 2009, 2011 и 2013 годах по версии журнала Forbes Джоли была названа самой высокооплачиваемой актрисой Голливуда[9][10].\r\n\r\nЕё наиболее успешными с коммерческой стороны фильмами стали «Малефисента» (сборы в мировом прокате — 758 миллионов долларов США), «Мистер и миссис Смит» (сборы в мировом прокате — 478 миллионов долларов США), «Особо опасен» (341 миллион долларов США), «Солт» (293 миллиона долларов США), а также «Турист» (278 миллионов долларов США), «Лара Крофт: Расхитительница гробниц» (274 миллиона долларов США) и картина с участием Николаса Кейджа «Угнать за 60 секунд» (237 миллионов долларов США).",
+        "photo": "photos/2023/09/11/andjelina-joli.jpg",
+        "time_create": "2023-09-01T05:54:01.224Z",
+        "time_update": "2024-02-20T18:33:10.366Z",
+        "is_published": true,
+        "cat": 1,
+        "husband": 1,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            4,
+            6
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 2,
+    "fields": {
+        "title": "Марго Робби",
+        "slug": "margo-robbi",
+        "content": "Марго Элис Робби родилась 2 июля 1990 года в городе Дэлби, штат Квинсленд, Австралия[3]. Она третья из четырёх детей фермера Майка Робби и физиотерапевта Сари Кесслер[4][5]. Детство Марго провела в Голд-Косте на ферме дедушки и бабушки, и в доме родителей в Саутпорте[3]. У неё есть старший брат Лахлен, младший брат Кэмерон и старшая сестра Аня[6][7]. В 2007 году Марго окончила колледж Саммерсет в родном городе[8], а затем в 17 лет переехала в Мельбурн, где начала актёрскую карьеру[9].\r\n\r\nМарго начала свою актёрскую карьеру в 2007 году, снявшись в фильмах «Я вижу тебя» (вышел в 2009 году) и «Виджиланте» (вышел в 2008 году)[10]. Затем она появилась в эпизоде австралийского детективного сериала «Отдел убийств», а также двух эпизодах сериала «Принцесса слонов». В июне 2008 года присоединилась к сериалу «Соседи», в котором снималась до января 2011 года[11][12]. За роль Донны Фридмен в нём она дважды (в 2009 и 2011 году) была номинирована на премию «Logie Awards»[13][14].\r\n\r\nМарго на вручении премии Logie Awards 2011. После переезда в Лос-Анджелес, Марго получила одну из главных ролей в сериале «Пан Американ»[15], в котором снималась в течение одного сезона с 2011 по 2012 год[16][17]. В 2013 году она снялась в фильмах «Бойфренд из будущего» и «Волк с Уолл-стрит»[18]. За роль в последнем Марго получила премию «Империя» в категории «Лучший женский дебют»[19], а также была номинирована ещё на несколько премий.Перейти к разделу «#Награды и номинации»\r\n\r\nВ 2014 году она снялась в фильме «Французская сюита»[20]. В 2015 году Робби сыграла в фильмах «Z — значит Захария»[21], «Фокус»[22], а также появилась камео в фильме «Игра на понижение»[23]. В том же году она была номинирована на премию BAFTA в категории «Восходящая звезда»[24]. В 2016 году вышли три фильма с участием Марго — «Тарзан. Легенда»[25], «Репортёрша»[26] и «Отряд самоубийц», в котором она сыграла роль Харли Квинн[27]. В 2017 году вышли два новых фильма с участием Робби — «Прощай, Кристофер Робин»[28] и «Тоня против всех», в котором Марго сыграла американскую фигуристку Тоню Хардинг[29].\r\n\r\nВошла в число ста наиболее влиятельных людей 2017 года по версии журнала Time[30][31].\r\n\r\nВ 2018 году Марго появилась в фильмах «Кролик Питер»[32], «Конченая»[33] и «Две королевы»[34].\r\n\r\nВ 2019 году состоялись релизы трёх фильмов с её участием — «Страна грёз»[35], «Однажды в… Голливуде»[36] и «Скандал»[37].\r\n\r\nВ 2020 году вышел фильм «Хищные птицы. Потрясающая история Харли Квинн», в котором Марго вернулась к роли Харли Квинн.\r\n\r\nВ 2021 году выйдёт фильм «Кролик Питер 2», в котором Марго снова озвучит Флопси[38].\r\n\r\nВ мае 2016 года Робби стала лицом аромата Calvin Klein Deep Euphoria[39].\r\n\r\nВ 2017 году Марго снялась в рекламе электромобилей Nissan[40].\r\n\r\nВ феврале 2018 года Робби стала послом бренда Chanel[41]. Она стала последним послом бренда, выбранным Карлом Лагерфельдом перед его смертью в феврале 2019 года. Позже Марго стала лицом компании Gabrielle Chanel Essence[42].\r\n\r\nВ январе 2020 года перед церемонией вручения премии «Золотой глобус» Марго в своём Instagram-аккаунте призвала людей пожертвовать деньги в помощь пожарным и жертвам лесных пожаров в Австралии[43].\r\n\r\nПосле переезда из Австралии в США, несколько лет жила в Нью-Йорке[44]. Позже переехала в Лондон, где на съёмках фильма «Французская сюита» познакомилась с ассистентом режиссёра Томом Акерли[45][46]. В декабре 2016 года Робби и Акерли поженились после трёх лет отношений[47]. В апреле 2017 года стало известно, что пара строит планы по рождению первенца[48][49][50][51].",
+        "photo": "photos/2023/09/11/margo-robbi.jpg",
+        "time_create": "2023-09-01T06:02:44.423Z",
+        "time_update": "2024-02-20T18:33:13.379Z",
+        "is_published": true,
+        "cat": 1,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 3,
+    "fields": {
+        "title": "Джулия Робертс",
+        "slug": "dzhuliya-roberts",
+        "content": "Джулия Фиона Робертс (англ. Julia Fiona Roberts; род. 28 октября 1967, Атланта, Джорджия, США) — американская актриса кино и телевидения, продюсер. Первым успехом Джулии Робертс в кино стала роль в фильме «Стальные магнолии» (1989), за которую она получила премию «Золотой глобус» и номинацию на премию «Оскар» за «Лучшую женскую роль второго плана» в 1990 году. Через год она приобрела статус «звезды Голливуда» после исполнения главной роли в мелодраме «Красотка» (1990), принёсшей ей вторую премию «Золотой глобус», вторую номинацию на премию «Оскар» и номинацию на премию BAFTA в категории «Лучшая женская роль» в 1991 году.\r\n\r\nВ 2001 году, сыграв главную роль в биографическом фильме «Эрин Брокович» (2000), Робертс стала обладательницей множества наград, в том числе премии «Оскар», третьей премии «Золотой глобус», премии BAFTA и «Премии Гильдии киноактёров США» в номинации «Лучшая женская роль». В 2014 году Джулия Робертс была номинирована на премии «Оскар», «Золотой глобус» и BAFTA, а также на «Премию Гильдии киноактёров США» за «Лучшую женскую роль второго плана» в фильме «Август: Графство Осейдж» (2013).\r\n\r\nДжулия Робертс — одна из самых высокооплачиваемых актрис в мире[4]. Фильмы с её участием принесли в мировом прокате прибыль на сумму свыше двух миллиардов долларов[5].\r\n\r\nРодилась 28 октября 1967 года в городе Смирна (штат Джорджия, США)[6][7]. Будущая актриса стала третьим ребёнком в семье. У неё есть старший брат Эрик Робертс (род. 18 апреля 1956) и сестра Лиза (род. 5 августа 1965). Отец Джулии, Уолтер Грэйди Робертс (1933—1977), был продавцом водяных матрацев и одновременно был актёром и писателем. Мать Джулии, Бетти Лу Бредемас, работавшая секретарём в церковном приходе и по совместительству актриса, родилась в Миннеаполисе в 1934 году. Робертс имеет ирландские, шотландские, валлийские, английские, немецкие и шведские корни[8].\r\n\r\nРодители Джулии на момент её появления в семье находились в тяжёлом финансовом положении. Отец Робертс владел маленькой актёрской школой для детей в Декейтере (Джорджия), которую посещали дети Мартина Лютера Кинга. Когда миссис Робертс родила Джулию, Кинг в знак благодарности за внимание к своим детям оплатил больничный счёт[9].\r\n\r\nВ 1971 году, когда Джулии исполнилось 4 года, её мать Бетти Лу Робертс подала на развод. В следующем году она повторно вышла замуж за театрального критика Майкла Моутса (Michael Motes). В браке матери Джулии и Майкла родилась дочь Нэнси Моутс (Nancy Motes), которая скончалась 9 февраля 2014 года в Лос-Анджелесе в результате передозировки наркотиками в возрасте 37 лет[10][11]. Брак Бетти Лу с Моутсом распался в 1983 году. Позже Бетти называла это замужество «большой ошибкой»: отчим применял физическое насилие к детям Бетти. Спустя годы Эрик Робертс сделал несколько публичных заявлений на эту болезненную для Джулии тему. Джулия не только не одобрила поступок брата, но и сама никогда не выступала с откровениями о своём тяжёлом детстве из уважения к своей матери и сестре Нэнси.",
+        "photo": "photos/2023/09/11/julia-roberts.jpg",
+        "time_create": "2023-09-01T06:07:59.335Z",
+        "time_update": "2024-02-20T18:33:15.991Z",
+        "is_published": true,
+        "cat": 1,
+        "husband": 2,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            1,
+            3
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 4,
+    "fields": {
+        "title": "Дженнифер Лоуренс",
+        "slug": "dzhennifer-lourens",
+        "content": "Дженнифер Шрейдер Лоуренс (англ. Jennifer Shrader Lawrence]; род. 15 августа 1990, Индиан-Хиллз, Кентукки, США) — американская актриса кино и телевидения. Лауреат премии «Оскар» (2013), трёх премий «Золотой глобус» (2013, 2014, 2016), премии BAFTA (2014), двух «Премий Гильдии киноактёров США» (2013, 2014) и премии «Сатурн» (2013).\r\n\r\nДженнифер Лоуренс начала актёрскую карьеру в 2006 году, сыграв в телепроекте «Городская компания». Свою первую главную роль она исполнила в драме «Дом покера (англ.)русск.». Признание в актёрской среде она получила после роли Тиффани в комедийной драме «Мой парень — псих», а массовому зрителю стала известна как молодая Мистик в фантастических фильмах «Люди Икс: Первый класс» (2012), «Люди Икс: Дни минувшего будущего» (2014) и «Люди Икс: Апокалипсис» (2016). Наибольшую популярность актрисе принесла роль Китнисс Эвердин в экранизации книжной трилогии «Голодные игры».\r\n\r\nВ 2011 году Дженнифер в двадцатилетнем возрасте была номинирована на премию «Оскар» и «Золотой глобус» в категориях «Лучшая женская роль» и «Лучшая женская роль в драматическом фильме» за исполнение роли Ри Долли в драме «Зимняя кость», но обе статуэтки тогда выиграла Натали Портман. В периоде между 2012 и 2013 годами Дженнифер получила множество наград за роль в комедийной драме «Мой парень — псих», в их числе «Оскар», «Золотой глобус» и Премия Гильдии киноактёров США в номинациях «Лучшая женская роль». Актёрская работа Лоуренс в криминальной трагикомедии «Афера по-американски» принесла ей первую статуэтку BAFTA (2014), второй «Золотой глобус» (2014) и номинации на «Оскар» и «Премию Гильдии киноактёров США». Самая высокооплачиваемая актриса 2014—2015 года по версии журнала Forbes.",
+        "photo": "photos/2023/09/11/jennifer-lourens.jpg",
+        "time_create": "2023-09-01T06:17:48.060Z",
+        "time_update": "2024-02-20T18:33:19.278Z",
+        "is_published": true,
+        "cat": 1,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            3,
+            5
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 5,
+    "fields": {
+        "title": "Ариана Гранде",
+        "slug": "ariana-grande",
+        "content": "Ариана Гранде-Бутера[3] (англ. Ariana Grande-Butera; род. 26 июня 1993, Бока-Ратон, Флорида, США[1][4]) — американская певица, актриса, автор песен, музыкальный продюсер[5][6], обладательница премии «Грэмми»[7].\r\n\r\nПрофессиональную карьеру в шоу-бизнесе Ариана Гранде начала в 2008 году в бродвейском мюзикле «13». В 2009 году она получила роль Кэт Валентайн в телевизионном сериале «Виктория-победительница» на канале Nickelodeon, потом продолжила играть её же в телесериале «Сэм и Кэт», выходившем в 2013—2014 годах. Ариана также принимала участие в записи саундтреков и озвучивании мультфильмов (в частности, мультсериала «Клуб Винкс»). В 2015 году она вернулась на телеэкраны с эпизодической ролью Сони Херфман в сериале «Королевы крика».\r\n\r\nМузыкальная карьера Арианы началась в 2011 году с записи саундтрека к сериалу «Виктория-победительница». В том же году она заключила контракт со звукозаписывающей компанией Republic Records. В 2013 году у неё вышел дебютный альбом Yours Truly, дебютировавший на первом месте в американском чарте Billboard 200. Песня «The Way» с этого альбома занимала уверенные позиции в первой десятке чарта Billboard Hot 100 и была положительно встречена музыкальными критиками.\r\n\r\nСледующий альбом Арианы Гранде, My Everything (2014), также дебютировал на первой позиции в американском чарте. Альбом имел мировой успех благодаря хитам «Problem», «Break Free», «Bang Bang» и «Love Me Harder». C несколькими песнями с него певица 34 недели непрерывно находилась в первой десятке американского чарта Billboard Hot 100. В 2015 году она отправилась в мировой тур в поддержку этого альбома, озаглавленный The Honeymoon Tour.\r\n\r\nВ 2016 году Ариана выпустила альбом Dangerous Woman (2016, 2-е место в США), клип на сингл «Side To Side» с данного альбома имеет более миллиарда просмотров на YouTube. В следующем году певица отправилась в мировое турне Dangerous Woman Tour. 22 мая 2017 года на концерте Арианы в Манчестере произошёл теракт. Гранде приостановила тур и устроила благотворительный концерт, чтобы собрать деньги для пострадавших в теракте.\r\n\r\nСледующий альбом — Sweetener — вышел в 2018 году и занял 1-е место в США. Альбом был признан Американской академией звукозаписи лучшим поп-альбомом 2018 года. Через несколько месяцев после релиза альбома Sweetener, Ариана Гранде выпустила альбом Thank U, Next (2019), который так же занял первую строчку американского чарта Billboard 200. Альбом повторил рекорд группы The Beatles: три сингла из Thank U, Next («7 Rings», «Break Up With Your Girlfriend, I’m Bored» и «Thank U, Next») заняли первые три позиции чарта Billboard Hot 100 одновременно. Песни Арианы Гранде часто бьют рекорды на стриминг-сервисе Spotify. 18 марта 2019 певица отправилась в мировое турне Sweetener World Tour в поддержку двух своих последних альбомов.",
+        "photo": "photos/2023/09/11/ariana-grande_I5j6hDB.jpg",
+        "time_create": "2023-09-04T08:43:18.112Z",
+        "time_update": "2024-02-20T18:33:24.365Z",
+        "is_published": true,
+        "cat": 2,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 6,
+    "fields": {
+        "title": "Екатерина Гусева",
+        "slug": "ekaterina-guseva",
+        "content": "Екатерина Константиновна Гусева (род. 9 июля 1976, Москва) — российская актриса театра, кино, телевидения, мюзиклов, озвучивания и дубляжа, певица. Заслуженная артистка Российской Федерации (2009) \r\n\r\nВ начале 1995 года была приглашена одной из помощниц ведущего Михаила Борисова в телеигру «Русское лото». Вместе с Борисовым и второй помощницей Анной Марковой, Гусева исполняла различные роли в тематических театрализованных заставках, которыми открывался каждый тираж игры на протяжении восьми лет.\r\n\r\nПосле получения диплома в 1997 году сыграла главную роль в первом фильме Николая Лебедева «Змеиный источник» и получила предложение от Марка Розовского стать актрисой его театра «У Никитских ворот».\r\n\r\nВ июне 1999 года Екатерина выступила с группой дивертисментов для фильма Леонида Парфёнова ''Живой Пушкин'' — 5-серийной саге о жизни поэта А. С. Пушкина к 200-летнему юбилею со дня его рождения.\r\n\r\nОтработав четыре года в театре Розовского, Екатерина ушла в мюзикл «Норд-Ост». Специально для роли Кати Татариновой она начала брать уроки профессионального вокала и музыкальной грамоты. Готовясь к премьере «Норд-Оста», Екатерина Гусева успела сняться в принёсшем ей всероссийскую известность сериале Алексея Сидорова «Бригада». Весной 2002 года вместе со своим партнёром по «Норд-Осту» Андреем Богдановым и авторами спектакля Алексеем Иващенко и Георгием Васильевым Екатерина Гусева покорила Северный полюс, водрузив на нём флаг с автографами группы мюзикла. Во время этой экспедиции она пела при температуре −40 °C, этот факт был занесён в Книгу рекордов России[3].\r\n\r\n23 октября 2002 года у Гусевой в «Норд-Осте» был выходной, но все три дня теракта она провела около Театрального центра на Дубровке. В феврале 2003 года Екатерина Гусева вновь вышла на сцену в роли Кати Татариновой в восстановленной версии спектакля. Когда показы новой версии мюзикла прекратились (май 2003 г.), Гусева поступила в труппу театра имени Моссовета, в которой и состоит по настоящее время.\r\n\r\nПриняла участие в записи дисков «Норд-Ост: Избранное» (2002) и «7 подарков к Рождеству» (Классические рождественские песни в переводе Георгия Васильева) (2004), записала несколько песен как сольная певица. В дуэте с Леонидом Серебренниковым исполняет русские романсы. В 2006 году выпустила первый сольный диск «Может быть, получится».\r\n\r\nУчаствовала в проекте Первого канала «Звёзды на льду» в паре с фигуристом Романом Костомаровым.\r\n\r\nИсполняла главную роль в мюзикле «Красавица и Чудовище» вплоть до его закрытия в апреле 2010 года. Также с ноября 2011 года исполняла главную роль в мюзикле «Звуки музыки» (премьера — октябрь 2011 года)[4].\r\n\r\nВ 2004 и 2011 годах снималась для русской версии мужского журнала «Maxim».",
+        "photo": "photos/2023/09/11/ekaterina-guseva.jpg",
+        "time_create": "2023-09-08T08:45:12.793Z",
+        "time_update": "2024-02-20T18:33:46.918Z",
+        "is_published": true,
+        "cat": 1,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            2,
+            7
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 7,
+    "fields": {
+        "title": "Ума Турман",
+        "slug": "uma-turman",
+        "content": "Ума Каруна Турман (англ. Uma Karuna Thurman; род. 29 апреля 1970, Бостон, США) — американская актриса, бывшая модель.\r\n\r\nСыграла главные роли в различных кинолентах, от романтических комедий и драм до научно-фантастических фильмов и боевиков. После ранних ролей в таких фильмах, как «Опасные связи», она добилась международной известности в 1994 году, сыграв роль в «Криминальном чтиве» Квентина Тарантино, за которую была номинирована на премии «Оскар», «Золотой глобус» и BAFTA.\r\n\r\nРодилась 29 апреля 1970 года в Бостоне, в семье профессора Колумбийского университета, специалиста по восточным религиям и в прошлом буддийского монаха Роберта Турмана и баронессы Нены фон Шлебрюгге, известнейшей модели своего времени, ныне психотерапевта по профессии. Ранее мать Умы недолгое время была замужем за Тимоти Лири. Отец Нены — немец, мать — шведка.\r\n\r\nИмя, которое означает «дарующая блаженство», в честь индуистской богини Умы дал будущей актрисе отец. Обычно считается, что он стал первым американцем в истории, постриженным в буддийские монахи лично Далай-ламой. Монашеская жизнь Роберта Турмана в США подверглась серьёзному испытанию, он вернул обеты, окончил университет и ныне преподаёт на религиозном факультете Колумбийского университета.\r\n\r\nМать Умы родилась в семье барона Карла фон Шлебрюгге и Биргит Холмквист. Фон Шлебрюгге был состоятельным предпринимателем и во время Второй мировой войны попал в тюрьму за отказ разорвать деловые контракты с партнёрами-евреями[7]. Биргит Холмквист была довольно успешной моделью в Швеции, в городе Треллеборг на юге страны ей даже установлен памятник[8]. Мать Умы является шведской подданной[9]. Приехав в Америку, она жила среди хиппи и даже ненадолго вышла замуж за легендарного идеолога контркультуры, исследователя действия психоделических препаратов Тимоти Лири. Сегодня Нена Турман — вполне респектабельный психотерапевт.\r\n\r\nАктёрская карьера Умы заладилась не сразу. Приехав в Нью-Йорк, Ума работала посудомойкой и пыталась пробиться в фотомодели. По-настоящему её заметили только после эпизодической роли в фантастическом фильме Терри Гиллиама «Приключения барона Мюнхгаузена». В одной из сцен Гиллиам спародировал картину Боттичелли «Рождение Венеры». Венерой была Ума Турман.",
+        "photo": "photos/2023/09/11/uma-turman.jpg",
+        "time_create": "2023-09-08T09:07:24.039Z",
+        "time_update": "2024-02-20T18:33:53.659Z",
+        "is_published": true,
+        "cat": 1,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            1,
+            4,
+            7
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 8,
+    "fields": {
+        "title": "Рианна",
+        "slug": "rianna",
+        "content": "Рианна (англ. Rihanna); полное имя — Робин Рианна Фенти (англ. Robyn Rihanna Fenty; род. 20 февраля 1988, Барбадос) — барбадосская певица, актриса, музыкальный продюсер, модный дизайнер и филантроп. В 16 лет переехала в США, чтобы начать карьеру певицы. Позже она подписала контракт с Def Jam Recordings.\r\n\r\nВ 2005 году Рианна выпустила свою дебютную работу Music of the Sun, которая вошла в десятку лучших альбомов Billboard 200, а сингл «Pon de Replay» стал успешным в чарте Billboard Hot 100. Менее чем через год певица выпустила второй студийный альбом A Girl like Me (2006), который достиг своего максимума в лучшей пятёрке альбомного чарта Billboard, так же композиция «SOS» стала первым синглом Рианны, лидировавшим в чарте Hot 100. Третий студийный альбом Good Girl Gone Bad (2007) включал в себя четыре хит-сингла «Umbrella», «Take a Bow», «Disturbia», «Don’t Stop the Music» и получил девять номинаций «Грэмми», выиграв в категории «Лучшее совместное исполнение (вокал/рэп)» за песню «Umbrella» при участии рэпера Jay-Z. Её четвёртый студийный альбом Rated R был выпущен в ноябре 2009 года; несколько песен с альбома вошли в лучшую десятку синглов, а именно «Russian Roulette», «Hard» и «Rude Boy», который занял первую строчку чарта Billboard Hot 100. Пятый студийный альбом Loud (2010) включал в себя три сингла первой величины: «Only Girl (In the World)», «What’s My Name?» и «S&M». Шестой по счёту студийный альбом Talk That Talk был выпущен 18 ноября 2011 года и включал в себя хит-сингл «We Found Love», который стал 11-м #1 Рианны в Hot 100 и оставался на вершине 10 недель. Седьмой альбом Unapologetic был выпущен 19 ноября 2012 года, его выходу предшествовал лид-сингл «Diamonds».[5][6]\r\n\r\nРианна является одной из самых продаваемых артистов всех времён вследствие продажи более 20 миллионов копий альбомов и 60 миллионов синглов.[7] Она самая молодая певица в истории Billboard, которой удалось четырнадцать раз возглавить чарт Billboard Hot 100[8]. По состоянию на март 2010 года Рианна продала 7,3 миллиона альбомов и более 33,7 миллиона синглов только на территории Соединённых Штатов Америки.[9][10] По состоянию на июль 2015 года продано более 100 миллионов копий синглов певицы, таким образом, Рианна стала первым артистом в истории, достигшим такого показателя[11]. Журнал Billboard назвал Рианну «Артистом цифровой эры 2000-х годов»[12] и присудил общее 17 место среди артистов 2000-х.[13] Певица получила множество наград, включая международную музыкальную премию World Music Awards 2007 года в номинациях Самая продаваемая певица в жанре поп-музыка и Артистка года, а также на церемонии BRIT Awards в категории Лучшая международная исполнительница.[14] Рианна является обладательницей восьми Грэмми, шести American Music Awards и специальной награды Icon Award, восемнадцати наград Billboard Music Awards. 20 сентября 2018 года стала чрезвычайным и полномочным послом Барбадоса в США[15][16]. По итогам 2018 года Рианна заняла седьмую позицию в рейтинге самых высокооплачиваемых певиц мира-2018, составленном журналом Forbes. Её доход за 2018 год составил 37,5 миллионов долларов[17].",
+        "photo": "photos/2023/09/11/rianna_qZ3rB7H.jpg",
+        "time_create": "2023-09-11T06:59:17.729Z",
+        "time_update": "2024-02-20T18:34:01.587Z",
+        "is_published": true,
+        "cat": 2,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            1,
+            3
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 9,
+    "fields": {
+        "title": "Бейонсе",
+        "slug": "beonse",
+        "content": "\"Бейонсе Жизель Ноулз-Картер (англ. Beyonce Giselle Knowles-Carter; род. 4 сентября 1981[7], Хьюстон), более известная просто как Бейо?нсе (произносится /bi?j?nse?/ би-йон-сей) — американская певица в стиле R’n’B, актриса, танцовщица, музыкальный продюсер. Будучи ребёнком, участвовала в разных вокальных и танцевальных конкурсах, принимала участие в школьной художественной самодеятельности. Ноулз прославилась в конце 1990-х годов, будучи солисткой женской R&B-группы Destiny’s Child.\r\n\r\nВо время раскола Destiny’s Child Ноулз выпустила свой дебютный сольный альбом Dangerously in Love (2003), в который вошли такие хиты, как «Crazy in Love» и «Baby Boy». Пластинка стала одним из самых успешных релизов 2003 года. За этот альбом Ноулз получила рекордные пять «Грэмми»[8][9]. В 2006 году, спустя год после окончательного развала группы, Бейонсе выпустила альбом B’Day, который занял первую строчку в чарте Billboard 200 и включал хиты «Deja Vu», «Irreplaceable» и «Beautiful Liar». Её третий сольный альбом I Am… Sasha Fierce, выпущенный в ноябре 2008 года, включал хит «Single Ladies (Put a Ring on It)». Альбом и его синглы одержали победу в шести номинациях «Грэмми», что стало рекордом для певицы[10][11][12]. Бейонсе — одна из самых успешных артисток «Грэмми», получившая 20 наград, 17 из которых получены ею как сольной исполнительницей и три — как участницей группы Destiny’s Child.\r\n\r\nНоулз начала актёрскую карьеру в 2001 году, появившись в музыкальном фильме «Кармен: Хип-хопера». В 2006 году она снялась в главной роли в фильме-адаптации бродвейского мюзикла 1981 года «Девушки мечты», за который она была номинирована на «Золотой глобус». В 2004 году Ноулз запустила семейную линию одежды House of Dereon и подписала контракт с такими брендами, как Pepsi, Tommy Hilfiger, Armani и L’Oreal. В 2010 году журнал Forbes поместил Ноулз на вторую строку в списке 100 самых влиятельных знаменитостей в мире[13][14]; она также была включена в список самых влиятельных музыкантов в мире[15]. Журнал Time включил Ноулз в список 100 самых влиятельных людей мира[16].\r\n\r\nНоулз заняла пятое место в Hot 100 синглов номер один как сольная исполнительница и четвёртое место с Destiny’s Child, как сольная артистка она распродала более 35 миллионов альбомов и синглов в США[17]. Согласно данным звукозаписывающей компании Sony, её общие продажи записей в составе группы превзошли 100 миллионов[18]. 11 декабря 2009 года Billboard объявил Ноулз самой успешной исполнительницей 2000-х годов и главной радио-исполнительницей десятилетия[19]. В феврале 2010 RIAA зарегистрировал её как артистку с самым большим количеством сертификатов RIAA за десятилетие[20][21]. В 2019 году вошла в список самых высокооплачиваемых музыкантов по версии журнала Forbes. Заработанная сумма составила $81 млн, это шестое место в рейтинге[22], которое певица разделила с Jay-Z.\"",
+        "photo": "photos/2023/09/11/beionce.jpg",
+        "time_create": "2023-09-11T08:23:28.579Z",
+        "time_update": "2024-02-20T18:34:14.940Z",
+        "is_published": true,
+        "cat": 2,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 10,
+    "fields": {
+        "title": "Кэтти Перри",
+        "slug": "krtti-perri",
+        "content": "\"Кэтрин Элизабет Хадсон (англ. Katheryn Elizabeth Hudson), более известная как Кэти Перри (англ. Katy Perry; род. 25 октября 1984[1][2][3], Санта-Барбара, Калифорния[7]) — американская певица, композитор, автор песен, актриса, посол доброй воли ООН[8].\r\n\r\nВ апреле 2007 года Перри подписала контракт со звукозаписывающей компанией Capitol Records. Она стала широко известна во всем мире после выхода сингла «I Kissed a Girl» и альбома One of the Boys в 2008 году. Последующие синглы «Hot n Cold» и «Waking Up in Vegas» также пользовались широкой международной популярностью. Третий альбом Перри Teenage Dream вышел в сентябре 2010 года. С него было выпущено 6 синглов, 5 из которых достигли вершины США: «California Gurls», «Teenage Dream», «Firework», «E.T.», «Last Friday Night (T.G.I.F.)». Альбом Teenage Dream является первым альбомом среди исполнительниц, где пять синглов дошли до первой строчки чарта Billboard Hot 100 и вторым альбомом после Bad Майкла Джексона. В марте 2012 года Перри переиздала Teenage Dream под названием Teenage Dream: The Complete Confection. Первый сингл «Part of Me» дебютировал на первой строчке Billboard Hot 100. Он также возглавлял чарты Великобритании, Канады и Новой Зеландии. Её четвёртый альбом Prism вышел в октябре 2013 года. Он возглавил национальный альбомный чарт Billboard 200 в первую неделю продаж, а первый сингл «Roar» был мировым хитом, возглавив 17 чартов.\r\n\r\nПерри является обладательницей многочисленных наград, в том числе она была тринадцать раз номинирована на премию «Грэмми». В 2012 году музыкальное издание Billboard назвало её женщиной года. Она продолжает оставаться единственным артистом, кому удавалось провести 69 последовательных недель в лучшей десятке чарта Billboard Hot 100[9][10]. Перри также названа третьим лучшим артистом цифровой эпохи, согласно статистике RIAA[11]. Она также выпустила собственную парфюмерную линию: Purr, Meow, Killer Queen. В конце июля 2011 года Перри присоединилась к проекту «Смурфики», озвучив главную героиню — Смурфетту. Billboard поставил Перри на 14 место в обзоре самых высокооплачиваемых музыкантов 2011 года. В начале июля 2012 года она выпустила автобиографический документальный фильм «Кэти Перри: Частичка меня», в котором она повествует о последнем концертном туре The California Dreams Tour. На ноябрь 2013 года Перри продала 12 миллионов альбомов и 81 миллион синглов во всем мире[12][13]. По состоянию на февраль 2020 года на официальный Youtube-канал Katy Perry подписано около 36 миллионов подписчиков, а сумма всех просмотров превышает 19 миллиардов, что является лучшим показателем за всю историю видеохостинга.\"",
+        "photo": "photos/2023/09/11/keti-perri.jpg",
+        "time_create": "2023-09-11T08:24:11.173Z",
+        "time_update": "2024-02-20T18:34:22.254Z",
+        "is_published": true,
+        "cat": 2,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            3,
+            6
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 11,
+    "fields": {
+        "title": "Шакира",
+        "slug": "shakira",
+        "content": "\"Шакира Изабель Мебарак Риполь (исп. Shakira Isabel Mebarak Ripoll; род. 2 февраля 1977, Барранкилья)[3], известная мононимно как Шакира или Shakira, — колумбийская певица, автор песен, танцовщица, музыкальный продюсер, хореограф и модель. Широко известна как наиболее успешная латиноамериканская артистка, добившаяся успеха к началу 2000-х как на испаноязычном, так и на англоязычном музыкальных рынках. Имя певицы в переводе с арабского (араб. ??????? sakira) означает «благодарная», а на хинди — «богиня света»[4]. Родилась и выросла в Барранкилье. Начала выступать ещё в школе, проявляя интерес к музыке латиноамериканского, арабского направлений и рок-н-роллу, а также способности к танцу живота. Шакира выпустила свои первые студийные альбомы Magia и Peligro в начале 1990-х, но не добилась коммерческого успеха; однако её известность возросла в Латинской Америке с дебютным альбомом на главном лейбле Pies Descalzos (1996) и с четвёртым альбомом Donde Estan los Ladrones? (1998).\r\n\r\nШакира вошла на англоязычный рынок с пятым альбомом Laundry Service (2001). Его главный сингл «Whenever, Wherever» стал самым продаваемым в 2002 году. Её успех был подтверждён шестым и седьмым альбомами Fijacion Oral, Vol. 1 и Oral Fixation, Vol. 2 (2005), с последнего вышла самая продаваемая песня XXI века Hips Don’t Lie. Восьмой и девятый альбомы She Wolf (2009) и Sale el Sol (2010) получили одобрение у критиков, но не были раскручены из-за напряжённых отношений с лейблом Epic Records. Её официальная песня для Чемпионата мира по футболу 2010 Waka Waka (This Time for Africa) стала самой продаваемой песней Мирового Кубка за все времена. С более чем 2 миллиардами просмотров клип на неё является одним из самых просматриваемых видео на YouTube, а наиболее просматриваемый клип на песню Chantaje имеет более 2.2 миллиардов просмотров. По состоянию на август 2020 года на YouTube канал Shakira[5] подписано 30,1 миллиона пользователей. С 2013 года Шакира была судьёй на американской версии «Голоса» в четвёртом и шестом сезонах. Выходу её десятого альбома Shakira (2014) предшествовал главный сингл Can’t Remember to Forget You.\r\n\r\nШакира выиграла много наград, включая пять «MTV Video Music Awards», две Грэмми, восемь «Латинских Грэмми», семь Billboard Music Awards, двадцать восемь Billboard Latin Music Awards[en] и номинацию на «Золотой глобус». У неё есть звезда на «Аллее славы», и она одна из самых продаваемых артистов всех времён с продажами более 70 миллионов альбомов (по другим данным — более 60 миллионов записей[6]) по всему миру[7]. Помимо работы в музыкальной индустрии Шакира задействована в филантропии через благотворительную деятельность и бенефисы, в особенности благодаря её фонду Pies Descalzos Foundation[en], выступлению на «Климатической инициативе Клинтона»[en] (CCI), проекте бывшего американского президента Билла Клинтона, и приглашению в Овальный Кабинет Президента Барака Обамы в феврале 2010 года, чтобы обсудить развитие детей раннего возраста[8]. Шакира попала в список Форбс как одна из 100 самых могущественных женщин в мире в 2013[9] и 2014 годах[10].\"",
+        "photo": "photos/2023/09/11/shakira.jpg",
+        "time_create": "2023-09-11T08:24:43.665Z",
+        "time_update": "2024-02-20T18:34:45.838Z",
+        "is_published": true,
+        "cat": 2,
+        "husband": 3,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            2,
+            5
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 12,
+    "fields": {
+        "title": "Анастасия Эшли",
+        "slug": "anastasiya-rshli",
+        "content": "\"Анастасия Эшли — профессиональный серфер, победительница Professional Surfing Tour Американского чемпионата. Она также работала моделью и известна в социальных медиа, на ее профиль в инстаграме подписано более миллиона фанатов.\r\n\r\nАнастасия начала заниматься сёрфингом с 5 лет и в 6 уже выиграла свои первые соревнования. В 7 лет у нее появился первый спонсор. Анастасия появлялась на страницах журналов Sports Illustrated и Maxim.\r\n\r\nНа сегодняшний день, модель ведет свою страничку в Инстаграм, куда выкладывает новые снимки. На ее аккаунт подписано более одного миллиона подписчиков. Практически на каждом фото Анастасия Эшли в купальнике – такие снимки больше всего радуют ее фанов.\"",
+        "photo": "photos/2023/09/11/anastasiya-eshli.jpg",
+        "time_create": "2023-09-11T08:25:04.696Z",
+        "time_update": "2024-02-20T18:35:01.697Z",
+        "is_published": true,
+        "cat": 3,
+        "husband": 4,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 13,
+    "fields": {
+        "title": "Мадонна Луиза Чикконе",
+        "slug": "madonna-luiza-chikkone",
+        "content": "Мадонна Луиза Чикконе (англ. Madonna Louise Ciccone; не являющийся псевдонимом мононим — Мадонна[b]; фамилия во втором замужестве — Ри́чи[17][18]; род. 16 августа 1958, Бей-Сити, Мичиган, США) — американская автор-исполнительница, поп-певица, танцовщица, музыкальный продюсер, а также актриса, режиссёр и детская писательница[8][17][19]. Самая коммерчески успешная исполнительница в истории по версии «Книги рекордов Гиннесса»[20][19].\r\n\r\nДвадцать работ Мадонны возглавляли главные сингловые чарты США или Великобритании, тринадцать — альбомные[21][22][23]. Её работы установили несколько мировых рекордов чартов[24][25]. Американская ассоциация звукозаписывающих компаний признала её самой продаваемой рок-исполнительницей XX века и третьей среди певиц в США (Мадонна не была №1 с начала ведения статистики, т. н. «всех времён», в США)[26].\r\n\r\nДебютный сингл «Everybody» был выпущен в 1982 году и стал первым в череде успехов автора-исполнительницы. Как правило, песни Мадонны получали положительные отзывы музыкальных критиков, однако часто вызывали в СМИ полемику из-за затрагиваемых в них остросоциальных тем — расизма, насилия, гендера, сексуальности и власти[2][27][28]. Самыми критически успешными альбомами стали Like a Prayer, Ray of Light и Confessions on a Dance Floor, коммерчески — сборник хитов The Immaculate Collection[22][29].\r\n\r\nПрославилась постоянным «перепридумыванием» (переосмыслением) своей музыки и образов[30]. Стала одной из первых женщин-музыкантов, сделавших успешную карьеру на известной студии звукозаписи, не потеряв при этом творческую или финансовую самостоятельность[31]. Приобрела скандальную репутацию благодаря использованию вызывающих эротических образов и вольному обращению с религиозной тематикой[2]. Клипы певицы стали неотъемлемой частью истории MTV, привнеся в мейнстрим новые тематики текстов и образов видеоклипов[32].",
+        "photo": "photos/2023/09/13/madonna.jpg",
+        "time_create": "2023-09-13T08:09:50.402Z",
+        "time_update": "2024-02-20T18:35:17.938Z",
+        "is_published": true,
+        "cat": 2,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            1,
+            5
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 14,
+    "fields": {
+        "title": "Мария Юрьевна Шарапова",
+        "slug": "mariya-yurevna-sharapova",
+        "content": "Мария Юрьевна Шарапова (род. 19 апреля 1987, Нягань, Тюменская область, РСФСР, СССР) — российская теннисистка.\r\n\r\nЭкс-первая ракетка мира, победительница пяти турниров Большого шлема в одиночном разряде в 2004—2014 годах, одна из десяти женщин в истории, кто обладает так называемым «карьерным шлемом» (выиграла все турниры Большого шлема, но в разные годы), одна из лидеров по рекламным заработкам среди спортсменов мира[8]. В 2005 году Шарапова удостоена звания Заслуженный мастер спорта России, в 2012 году — награждена двумя медалями За заслуги перед Отечеством за высокие достижения в области физической культуры и спорта.\r\n\r\nДостижения:\r\n\r\nПобедительница 39 турниров WTA (36 — в одиночном разряде).\r\nПобедительница Уимблдон-2004 в одиночном разряде.\r\nПобедительница Итогового чемпионата WTA (2004) в одиночном разряде.\r\nОбладательница Кубка Федерации (2008) и финалистка (2015).\r\nСеребряный призёр Олимпийских игр 2012 года в одиночном разряде[9].\r\nФиналистка двух юниорских турниров Большого шлема (Открытый чемпионат Австралии, Уимблдон-2002) в одиночном разряде.",
+        "photo": "photos/2023/09/13/sharapova.jpg",
+        "time_create": "2023-09-13T08:14:42.498Z",
+        "time_update": "2024-02-20T18:35:23.621Z",
+        "is_published": true,
+        "cat": 3,
+        "husband": null,
+        "author": [
+            "egor_zhmaev"
+        ],
+        "tags": [
+            1,
+            7
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 15,
+    "fields": {
+        "title": "Эллен Хог",
+        "slug": "rllen-hog",
+        "content": "Эллен Мартейн Хог (нидерл. Ellen Martijn Hoog; 26 марта 1986, Блумендал, Нидерланды) — бывшая нидерландская хоккеистка на траве, игрок национальной сборной Нидерландов. Двукратная олимпийская чемпионка игр 2008 года в Пекине и 2012 года в Лондоне. Чемпионка мира 2006 года, серебряный призёр чемпионата мира 2010 года и чемпионата Европы 2011 года.\r\n\r\nПришла в секцию хоккея на траве при клубе SCHC в семилетнем возрасте, в тринадцать лет попала в юношескую сборную Нидерландов, затем в молодежную. В 2004 году в матче против сборной Южной Корее дебютировала в составе первой сборной, сыграв 127 игр всего и забив 32 гола в них. Окончила университет Йохана Кройфа в Амстердаме. В августе 2005 года выиграла чемпионат Европы в Ирландии, в декабре того же года — Трофей чемпионов в Австралии, а также чемпионат мира 2006 года. Победила на Олимпиадах в 2008 и 2012 годах: в полуфинале забила победный гол в серии пенальти в ворота Новой Зеландии. Кавалер ордена Оранских-Нассау за победу на Олимпиаде-2012.",
+        "photo": "photos/2023/09/13/elen-hog.jpg",
+        "time_create": "2023-09-13T08:19:08.042Z",
+        "time_update": "2024-02-20T18:35:28.977Z",
+        "is_published": true,
+        "cat": 3,
+        "husband": null,
+        "author": [
+            "egor_zhmaev"
+        ],
+        "tags": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "women.women",
+    "pk": 16,
+    "fields": {
+        "title": "Заголовок",
+        "slug": "zagolovok",
+        "content": "Проба номер 1",
+        "photo": "",
+        "time_create": "2024-03-01T16:57:47.033Z",
+        "time_update": "2024-03-01T16:57:47.033Z",
+        "is_published": true,
+        "cat": 1,
+        "husband": null,
+        "author": [
+            "admin"
+        ],
+        "tags": [
+            3
+        ]
+    }
+}
+]

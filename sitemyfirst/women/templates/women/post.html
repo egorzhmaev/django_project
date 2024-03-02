@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load mptt_tags %}
+{% load static %}
+{% block breadcrumbs %}
+{% if perms.women.change_women %}
+<p><a href="{% url 'edit_page' post.slug %}">Редактировать</a></p>
+{% endif %}
+<!-- Теги -->
+{% with post.tags.all as tags %}
+{% if tags %}
+<ul class="tags-list">
+    <div class="article-panel">
+        <li>Теги:</li>
+        {% for t in tags %}
+        <li><a href="{{t.get_absolute_url}}">#{{t.tag}}</a></li>
+        {% endfor %}
+        Просмотры: {{ post.get_view_count }}
+        <p class="last">
+        <button data-women="{{ post.id }}" data-value="1">Лайк</button>
+        <button data-women="{{ post.id }}" data-value="-1">Дизлайк</button>
+        <button class="rating-sum">{{ post.get_sum_rating }}</button>
+        </p>
+    </div>
+</ul>
+{% endif %}
+{% endwith %}
+{% endblock %}
+
+{% block content %}
+<h1>{{post.title}}</h1>
+
+{% if post.photo %}
+<p><img class="img-article-left" src="{{post.photo.url}}"></p>
+{% endif %}
+
+{{post.content|linebreaks}}
+<hr/>
+<h1>Комментарии</h1>
+{% include 'comments_lists.html' %}
+{% endblock %}
+{% block script %}
+<script src="{% static 'women/js/ratings.js' %}"></script>
+{% endblock%}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Профиль</h1>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table>
+    <tr>
+        <td valign=top align=left width=20%>
+            <p><img src="{{ user.photo.url }}">
+        <td width=800св px>
+            <div class="form-error">{{ form.non_field_errors }}</div>
+            {% for f in form %}
+            <p><label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+            <div class="form-error">{{ f.errors }}</div>
+            {% endfor %}
+            <p><button type="submit">Сохранить</button></p></td>
+    </tr>
+    </table>
+</form>
+<hr>
+<p><a href="{% url 'users:password_change' %}">Сменить пароль</a></p>
+{% endblock %}

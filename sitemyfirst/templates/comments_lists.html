@@ -1,0 +1,42 @@
+{% load mptt_tags static %}
+{% recursetree post.comments.all %}
+<ul id="comment-thread-{{ node.pk }}">
+    <li class="card border-0">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="{{ node.author.photo.url }}" style="width: 120px;height: 130px;object-fit: cover;" alt="{{ node.author }}"/>
+            </div>
+            <div class="col-md-10">
+                <div class="card-body">
+                    <div class="card-title">
+                         <a href="{{ node.author.get_absolute_url }}">{{ node.author }}</a> (<time>{{ node.time_create }}</time>)
+                    </div>
+                    <p class="card-text">
+                        {{ node.content }}
+                    </p>
+                    <a class="btn btn-sm btn-dark btn-reply" href="#commentForm" data-comment-id="{{ node.pk }}" data-comment-username="{{ node.author }}">Ответить</a>
+                </div>
+            </div>
+        </div>
+    </li>
+     {% if not node.is_leaf_node %}
+        {{ children }}
+     {% endif %}
+</ul>
+{% endrecursetree %}
+{% if request.user.is_authenticated %}
+Форма добавления комментария
+<form method="post" action="{% url 'comment_create_view' post.pk %}" id="commentForm" name="commentForm" data-post-id="{{ post.pk }}">
+    {% csrf_token %}
+     <div class="form-error">{{ form.non_field_errors }}</div>
+    {% for f in form %}
+    <p>{{ f }}</p>
+    <div class="form-error">{{ f.errors }}</div>
+    {% endfor %}
+    <button type="submit" id="commentSubmit">Добавить комментарий</button>
+</form>
+{% endif %}
+
+{% block script %}
+<script src="{% static 'women/js/comments.js' %}"></script>
+{% endblock %}
