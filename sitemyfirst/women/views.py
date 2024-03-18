@@ -5,13 +5,37 @@ from django.urls import reverse_lazy
 from django.views import View
 from django.views.generic import ListView, DetailView, CreateView, UpdateView
 
+from rest_framework.decorators import action
+from rest_framework.response import Response
+from rest_framework.viewsets import ModelViewSet
+
 from sitemyfirst import settings
 from women.forms import AddPostForm, CommentCreateForm, FeedbackCreateForm
-from women.models import Women, TagPost, Comment, Feedback, Rating
+from women.models import Women, TagPost, Comment, Feedback, Rating, Category
 from women.utils import DataMixin, get_client_ip, ViewCountMixin
 from women.tasks import send_contact_email_message_task
 from django.http import JsonResponse
 from django.shortcuts import redirect
+
+from .permissions import IsOwnerOrReadOnly
+from .serializers import WomenSerializer
+
+
+class WomenViewSet(ModelViewSet):
+    serializer_class = WomenSerializer
+    permission_classes = (IsOwnerOrReadOnly,)
+    def get_queryset(self):
+        pk = self.kwargs.get("pk")
+
+        if not pk:
+            return Women.objects.all()[:3]
+
+        return Women.objects.filter(pk=pk)
+
+    @action(methods=['get'], detail=True)
+    def category(self, request, pk=None):
+        cats = Category.objects.get(pk=pk)
+        return Response({'cats': cats.name})
 
 
 class WomenHome(DataMixin, ListView):
