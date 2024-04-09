@@ -1,4 +1,5 @@
 {% load mptt_tags static %}
+<div class="nested-comments">
 {% recursetree post.comments.all %}
 <ul id="comment-thread-{{ node.pk }}">
     <li class="card border-0">
@@ -24,6 +25,8 @@
      {% endif %}
 </ul>
 {% endrecursetree %}
+</div>
+
 {% if request.user.is_authenticated %}
 Форма добавления комментария
 <form method="post" action="{% url 'comment_create_view' post.pk %}" id="commentForm" name="commentForm" data-post-id="{{ post.pk }}">

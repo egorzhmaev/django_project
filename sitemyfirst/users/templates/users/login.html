@@ -15,4 +15,8 @@
     <p><a href="{% url 'users:register' %}">Регистрация</a></p>
     <p><a href="{% url 'users:password_reset' %}">Забыли пароль?</a></p>
 </form>
+
+<hr>
+<p><a href="{% url 'social:begin' 'github' %}"><img src="/media/social-auth/github.png"></a></p>
+
 {% endblock %}

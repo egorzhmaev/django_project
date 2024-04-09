@@ -42,15 +42,14 @@ async function createComment(event) {
                                         </div>
                                         <div class="col-md-10">
                                             <div class="card-body">
-                                                <h6 class="card-title">
-                                                    ${comment.author}
-                                                </h6>
+                                                <div class="card-title">
+                                                    ${comment.author} (<time>${comment.time_create}</time>)
+                                                </div>
                                                 <p class="card-text">
                                                     ${comment.content}
                                                 </p>
                                                 <a class="btn btn-sm btn-dark btn-reply" href="#commentForm" data-comment-id="${comment.id}" data-comment-username="${comment.author}">Ответить</a>
                                                 <hr/>
-                                                <time>${comment.time_create}</time>
                                             </div>
                                         </div>
                                     </div>

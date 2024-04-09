@@ -444,3 +444,850 @@ you should set broker_connection_retry_on_startup to True.
 [2024-03-18 20:52:05,619: INFO/MainProcess] mingle: searching for neighbors
 [2024-03-18 20:52:06,683: INFO/MainProcess] mingle: all alone
 [2024-03-18 20:52:06,789: INFO/MainProcess] celery@c9b04d3367e3 ready.
+[2024-04-01 18:57:54,598: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-01 18:57:59,683: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 2.00 seconds... (1/100)
+
+[2024-04-01 18:58:06,691: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 4.00 seconds... (2/100)
+
+[2024-04-02 22:09:39,724: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-02 22:09:44,821: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 2.00 seconds... (1/100)
+
+[2024-04-02 22:09:51,830: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 4.00 seconds... (2/100)
+
+[2024-04-02 22:10:00,840: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 6.00 seconds... (3/100)
+
+[2024-04-02 22:10:11,850: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 8.00 seconds... (4/100)
+
+[2024-04-02 22:10:24,859: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 10.00 seconds... (5/100)
+
+[2024-04-02 22:10:39,869: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 12.00 seconds... (6/100)
+
+[2024-04-02 22:10:56,878: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 14.00 seconds... (7/100)
+
+[2024-04-02 22:11:15,889: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 16.00 seconds... (8/100)
+
+[2024-04-02 22:11:36,900: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 18.00 seconds... (9/100)
+
+[2024-04-02 22:11:59,910: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 20.00 seconds... (10/100)
+
+[2024-04-02 22:12:24,925: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 22.00 seconds... (11/100)
+
+[2024-04-02 22:12:51,939: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 24.00 seconds... (12/100)
+
+[2024-04-02 22:13:20,957: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 26.00 seconds... (13/100)
+
+[2024-04-03 22:49:26,952: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 22:49:27,351: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-03 22:49:27,364: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 22:49:27,377: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-03 22:49:28,424: INFO/MainProcess] mingle: all alone
+[2024-04-03 22:49:28,512: INFO/MainProcess] celery@df9837129de4 ready.
+[2024-04-03 22:49:28,539: INFO/MainProcess] Task women.tasks.dbackup_task[091f9e41-c504-4cae-8465-4e4fad579940] received
+[2024-04-03 22:49:29,465: WARNING/ForkPoolWorker-7] Waiting for database dump...
+[2024-04-03 22:49:36,063: ERROR/ForkPoolWorker-7] Task women.tasks.dbackup_task[091f9e41-c504-4cae-8465-4e4fad579940] raised unexpected: CommandError('Unable to serialize database: no such table: authtoken_token')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: authtoken_token
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/commands/dumpdata.py", line 265, in handle
+    serializers.serialize(
+  File "/usr/local/lib/python3.12/site-packages/django/core/serializers/__init__.py", line 134, in serialize
+    s.serialize(queryset, **options)
+  File "/usr/local/lib/python3.12/site-packages/django/core/serializers/base.py", line 132, in serialize
+    for count, obj in enumerate(queryset, start=1):
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/commands/dumpdata.py", line 222, in get_objects
+    yield from queryset.iterator()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 516, in _iterator
+    yield from iterable
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: authtoken_token
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/tasks.py", line 29, in dbackup_task
+    call_command('dbackup')
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 194, in call_command
+    return command.execute(*args, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/base.py", line 458, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/management/commands/dbackup.py", line 11, in handle
+    call_command(
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 194, in call_command
+    return command.execute(*args, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django_dump_load_utf8/management/commands/dumpdatautf8.py", line 10, in execute
+    result = super(Command, self).execute(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/base.py", line 458, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/commands/dumpdata.py", line 281, in handle
+    raise CommandError("Unable to serialize database: %s" % e)
+django.core.management.base.CommandError: Unable to serialize database: no such table: authtoken_token
+[2024-04-03 23:23:20,974: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 23:23:21,060: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-03 23:23:21,076: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 23:23:21,110: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-03 23:23:22,198: INFO/MainProcess] mingle: all alone
+[2024-04-03 23:23:22,325: INFO/MainProcess] celery@726e6b764f0a ready.
+[2024-04-03 23:27:17,424: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 23:27:17,484: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-03 23:27:17,507: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 23:27:17,544: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-03 23:27:18,602: INFO/MainProcess] mingle: all alone
+[2024-04-03 23:27:18,649: INFO/MainProcess] celery@a8c0d8955eca ready.
+[2024-04-03 23:41:50,668: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 23:41:50,821: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-03 23:41:50,853: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 23:41:50,875: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-03 23:41:51,986: INFO/MainProcess] mingle: all alone
+[2024-04-03 23:41:52,148: INFO/MainProcess] celery@0eb42864a29d ready.
+[2024-04-03 23:51:13,960: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 23:51:13,985: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-03 23:51:13,991: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 23:51:14,000: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-03 23:51:15,028: INFO/MainProcess] mingle: all alone
+[2024-04-03 23:51:15,395: INFO/MainProcess] celery@69da9331a2ce ready.
+[2024-04-04 00:13:23,154: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-04 00:13:23,224: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-04 00:13:23,235: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-04 00:13:23,251: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-04 00:13:24,311: INFO/MainProcess] mingle: all alone
+[2024-04-04 00:13:24,420: INFO/MainProcess] celery@6adaea5e43d0 ready.
+[2024-04-04 22:19:36,295: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-04 22:19:41,310: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 2.00 seconds... (1/100)
+
+[2024-04-04 22:20:08,007: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-04 22:20:08,028: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-04 22:20:08,033: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-04 22:20:08,041: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-04 22:20:09,068: INFO/MainProcess] mingle: all alone
+[2024-04-04 22:20:09,103: INFO/MainProcess] celery@6adaea5e43d0 ready.
+[2024-04-04 22:20:09,112: INFO/MainProcess] Task women.tasks.dbackup_task[191c7d20-49e3-4a52-938f-2de6072cbde9] received
+[2024-04-04 22:20:09,256: WARNING/ForkPoolWorker-7] Waiting for database dump...
+[2024-04-04 22:20:10,213: WARNING/ForkPoolWorker-7] Database successfully backed up
+[2024-04-04 22:20:10,217: INFO/ForkPoolWorker-7] Task women.tasks.dbackup_task[191c7d20-49e3-4a52-938f-2de6072cbde9] succeeded in 1.1013324520000012s: None
+[2024-04-04 23:56:56,289: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-04 23:56:57,468: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-04 23:56:57,496: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-04 23:56:57,516: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-04 23:56:58,592: INFO/MainProcess] mingle: all alone
+[2024-04-04 23:56:58,725: INFO/MainProcess] celery@2845d27fc9fb ready.
+[2024-04-05 00:23:17,375: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 00:23:17,447: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 00:23:17,456: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 00:23:17,480: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 00:23:18,553: INFO/MainProcess] mingle: all alone
+[2024-04-05 00:23:18,674: INFO/MainProcess] celery@03c34c5afd4c ready.
+[2024-04-05 00:37:49,163: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 00:37:50,018: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 00:37:50,024: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 00:37:50,032: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 00:37:51,061: INFO/MainProcess] mingle: all alone
+[2024-04-05 00:37:51,108: INFO/MainProcess] celery@2a3bc287ac5d ready.
+[2024-04-05 01:18:28,519: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 01:18:28,543: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 01:18:28,549: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 01:18:28,559: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 01:18:29,585: INFO/MainProcess] mingle: all alone
+[2024-04-05 01:18:29,624: INFO/MainProcess] celery@2a3bc287ac5d ready.
+[2024-04-05 01:18:29,639: INFO/MainProcess] Task women.tasks.dbackup_task[aa4c12b7-bd0a-4900-940a-9072d28d791b] received
+[2024-04-05 01:18:29,776: WARNING/ForkPoolWorker-7] Waiting for database dump...
+[2024-04-05 01:18:30,142: WARNING/ForkPoolWorker-7] Database successfully backed up
+[2024-04-05 01:18:30,146: INFO/ForkPoolWorker-7] Task women.tasks.dbackup_task[aa4c12b7-bd0a-4900-940a-9072d28d791b] succeeded in 0.5039123879996623s: None
+[2024-04-05 01:41:52,851: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 01:41:52,888: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 01:41:52,895: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 01:41:52,921: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 01:41:53,958: INFO/MainProcess] mingle: all alone
+[2024-04-05 01:41:54,037: INFO/MainProcess] celery@bd64390a16ff ready.
+[2024-04-05 01:45:10,035: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 01:45:10,496: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 01:45:10,502: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 01:45:10,518: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 01:45:11,544: INFO/MainProcess] mingle: all alone
+[2024-04-05 01:45:11,593: INFO/MainProcess] celery@db3e16846eb0 ready.
+[2024-04-05 01:48:06,620: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 01:48:06,654: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 01:48:06,661: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 01:48:06,672: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 01:48:07,716: INFO/MainProcess] mingle: all alone
+[2024-04-05 01:48:07,763: INFO/MainProcess] celery@db3e16846eb0 ready.
+[2024-04-05 02:48:42,767: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 02:48:42,791: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 02:48:42,795: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 02:48:42,804: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 02:48:43,833: INFO/MainProcess] mingle: all alone
+[2024-04-05 02:48:43,874: INFO/MainProcess] celery@db3e16846eb0 ready.
+[2024-04-05 03:05:05,918: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 03:05:05,942: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 03:05:05,947: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 03:05:05,955: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 03:05:06,980: INFO/MainProcess] mingle: all alone
+[2024-04-05 03:05:07,018: INFO/MainProcess] celery@db3e16846eb0 ready.
+[2024-04-05 03:07:49,130: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 03:07:49,153: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 03:07:49,157: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 03:07:49,165: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 03:07:50,189: INFO/MainProcess] mingle: all alone
+[2024-04-05 03:07:50,229: INFO/MainProcess] celery@db3e16846eb0 ready.
+[2024-04-05 03:20:09,007: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 03:20:09,644: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 03:20:09,659: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 03:20:09,678: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 03:20:10,745: INFO/MainProcess] mingle: all alone
+[2024-04-05 03:20:10,857: INFO/MainProcess] celery@8a0a84fa708c ready.
+[2024-04-05 03:22:21,286: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 03:22:21,346: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-05 03:22:21,363: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-05 03:22:21,393: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-05 03:22:22,457: INFO/MainProcess] mingle: all alone
+[2024-04-05 03:22:23,297: INFO/MainProcess] celery@8a0a84fa708c ready.
+[2024-04-08 22:32:06,615: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-08 22:32:11,629: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 2.00 seconds... (1/100)
+
+[2024-04-08 22:32:18,641: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 4.00 seconds... (2/100)
+
+[2024-04-08 22:32:27,649: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 6.00 seconds... (3/100)
+
+[2024-04-08 22:33:35,392: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-08 22:33:35,414: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-08 22:33:35,418: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-08 22:33:35,425: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-08 22:33:36,448: INFO/MainProcess] mingle: all alone
+[2024-04-08 22:33:36,481: INFO/MainProcess] celery@8a0a84fa708c ready.
+[2024-04-08 22:33:36,490: INFO/MainProcess] Task women.tasks.dbackup_task[5bd747da-6b06-439b-b632-bb56e0d25e35] received
+[2024-04-08 22:33:36,653: WARNING/ForkPoolWorker-7] Waiting for database dump...
+[2024-04-08 22:33:37,326: ERROR/ForkPoolWorker-7] Task women.tasks.dbackup_task[5bd747da-6b06-439b-b632-bb56e0d25e35] raised unexpected: CommandError('Unable to serialize database: relation "django_site" does not exist\nLINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...\n                                                             ^')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg/server_cursor.py", line 292, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedTable: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/commands/dumpdata.py", line 265, in handle
+    serializers.serialize(
+  File "/usr/local/lib/python3.12/site-packages/django/core/serializers/__init__.py", line 134, in serialize
+    s.serialize(queryset, **options)
+  File "/usr/local/lib/python3.12/site-packages/django/core/serializers/base.py", line 132, in serialize
+    for count, obj in enumerate(queryset, start=1):
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/commands/dumpdata.py", line 222, in get_objects
+    yield from queryset.iterator()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 516, in _iterator
+    yield from iterable
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg/server_cursor.py", line 292, in execute
+    raise ex.with_traceback(None)
+django.db.utils.ProgrammingError: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/tasks.py", line 29, in dbackup_task
+    call_command('dbackup')
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 194, in call_command
+    return command.execute(*args, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/base.py", line 458, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/management/commands/dbackup.py", line 11, in handle
+    call_command(
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 194, in call_command
+    return command.execute(*args, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django_dump_load_utf8/management/commands/dumpdatautf8.py", line 10, in execute
+    result = super(Command, self).execute(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/base.py", line 458, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/management/commands/dumpdata.py", line 281, in handle
+    raise CommandError("Unable to serialize database: %s" % e)
+django.core.management.base.CommandError: Unable to serialize database: relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+[2024-04-08 23:59:38,237: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-08 23:59:38,260: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-08 23:59:38,264: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-08 23:59:38,278: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-08 23:59:39,303: INFO/MainProcess] mingle: all alone
+[2024-04-08 23:59:39,337: INFO/MainProcess] celery@8a0a84fa708c ready.
+[2024-04-09 21:16:36,698: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-09 21:16:41,710: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 2.00 seconds... (1/100)
+
+[2024-04-09 21:16:48,723: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 4.00 seconds... (2/100)
+
+[2024-04-09 21:16:57,732: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 6.00 seconds... (3/100)
+
+[2024-04-09 21:17:08,743: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 8.00 seconds... (4/100)
+
+[2024-04-09 21:17:21,755: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 10.00 seconds... (5/100)
+
+[2024-04-09 21:17:36,765: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 12.00 seconds... (6/100)
+
+[2024-04-09 21:17:53,778: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 14.00 seconds... (7/100)
+
+[2024-04-09 21:18:12,792: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 16.00 seconds... (8/100)
+
+[2024-04-09 21:18:33,805: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 18.00 seconds... (9/100)
+
+[2024-04-09 21:18:56,816: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Try again..
+Trying again in 20.00 seconds... (10/100)
+
+[2024-04-09 21:25:00,592: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-09 21:25:00,617: INFO/MainProcess] Connected to redis://redis:6379/0
+[2024-04-09 21:25:00,624: WARNING/MainProcess] /usr/local/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-09 21:25:00,634: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-09 21:25:01,668: INFO/MainProcess] mingle: all alone
+[2024-04-09 21:25:01,711: INFO/MainProcess] celery@cf0fbb82771f ready.
+[2024-04-09 21:25:01,723: INFO/MainProcess] Task women.tasks.dbackup_task[de683654-cc44-49d5-9007-27356e7127ed] received
+[2024-04-09 21:25:01,903: WARNING/ForkPoolWorker-7] Waiting for database dump...
+[2024-04-09 21:25:02,891: WARNING/ForkPoolWorker-7] Database successfully backed up
+[2024-04-09 21:25:02,896: INFO/ForkPoolWorker-7] Task women.tasks.dbackup_task[de683654-cc44-49d5-9007-27356e7127ed] succeeded in 1.168355322000025s: None
+[2024-04-09 21:58:55,485: INFO/MainProcess] Task women.tasks.send_activate_email_message_task[6f0bc5bb-0f49-4156-841c-3a7b5c4c7509] received
+[2024-04-09 21:58:55,662: ERROR/ForkPoolWorker-7] Task women.tasks.send_activate_email_message_task[6f0bc5bb-0f49-4156-841c-3a7b5c4c7509] raised unexpected: Http404('No User matches the given query.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+users.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/tasks.py", line 13, in send_activate_email_message_task
+    return send_activate_email_message(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/email.py", line 26, in send_activate_email_message
+    user = get_object_or_404(get_user_model(), id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 87, in get_object_or_404
+    raise Http404(
+django.http.response.Http404: No User matches the given query.
+[2024-04-09 22:01:00,481: INFO/MainProcess] Task women.tasks.send_activate_email_message_task[31f0ec3a-4a46-4e7a-bbe5-7bf2c85edf91] received
+[2024-04-09 22:01:00,533: ERROR/ForkPoolWorker-7] Task women.tasks.send_activate_email_message_task[31f0ec3a-4a46-4e7a-bbe5-7bf2c85edf91] raised unexpected: Http404('No User matches the given query.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+users.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/tasks.py", line 13, in send_activate_email_message_task
+    return send_activate_email_message(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/email.py", line 26, in send_activate_email_message
+    user = get_object_or_404(get_user_model(), id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 87, in get_object_or_404
+    raise Http404(
+django.http.response.Http404: No User matches the given query.
+[2024-04-09 22:08:57,130: INFO/MainProcess] Task women.tasks.send_activate_email_message_task[4160abb6-4bee-42c2-9c1f-e4e536a750cf] received
+[2024-04-09 22:08:57,202: ERROR/ForkPoolWorker-7] Task women.tasks.send_activate_email_message_task[4160abb6-4bee-42c2-9c1f-e4e536a750cf] raised unexpected: Http404('No User matches the given query.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+users.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/tasks.py", line 13, in send_activate_email_message_task
+    return send_activate_email_message(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/email.py", line 26, in send_activate_email_message
+    user = get_object_or_404(get_user_model(), id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 87, in get_object_or_404
+    raise Http404(
+django.http.response.Http404: No User matches the given query.
+[2024-04-09 22:12:54,783: INFO/MainProcess] Task women.tasks.send_activate_email_message_task[2a447845-ad08-4b2c-9c20-8fb5eb8da4c1] received
+[2024-04-09 22:12:55,906: INFO/ForkPoolWorker-7] Task women.tasks.send_activate_email_message_task[2a447845-ad08-4b2c-9c20-8fb5eb8da4c1] succeeded in 1.1164972579999812s: None
+[2024-04-09 22:17:15,021: INFO/MainProcess] Task women.tasks.send_activate_email_message_task[7f7f0d53-caf4-4af5-b476-4cfe39a81cb8] received
+[2024-04-09 22:17:15,075: ERROR/ForkPoolWorker-7] Task women.tasks.send_activate_email_message_task[7f7f0d53-caf4-4af5-b476-4cfe39a81cb8] raised unexpected: Http404('No User matches the given query.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+users.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/tasks.py", line 13, in send_activate_email_message_task
+    return send_activate_email_message(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/email.py", line 26, in send_activate_email_message
+    user = get_object_or_404(get_user_model(), id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 87, in get_object_or_404
+    raise Http404(
+django.http.response.Http404: No User matches the given query.
+[2024-04-09 22:17:49,149: INFO/MainProcess] Task women.tasks.send_activate_email_message_task[164b188e-407e-46a5-978c-e4c16e254973] received
+[2024-04-09 22:17:49,202: ERROR/ForkPoolWorker-7] Task women.tasks.send_activate_email_message_task[164b188e-407e-46a5-978c-e4c16e254973] raised unexpected: Http404('No User matches the given query.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+users.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/tasks.py", line 13, in send_activate_email_message_task
+    return send_activate_email_message(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/email.py", line 26, in send_activate_email_message
+    user = get_object_or_404(get_user_model(), id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 87, in get_object_or_404
+    raise Http404(
+django.http.response.Http404: No User matches the given query.
+[2024-04-09 22:18:47,317: INFO/MainProcess] Task women.tasks.send_activate_email_message_task[d940c616-877c-4144-9e9a-681d3cb057aa] received
+[2024-04-09 22:18:47,370: ERROR/ForkPoolWorker-7] Task women.tasks.send_activate_email_message_task[d940c616-877c-4144-9e9a-681d3cb057aa] raised unexpected: Http404('No User matches the given query.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+users.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/tasks.py", line 13, in send_activate_email_message_task
+    return send_activate_email_message(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/email.py", line 26, in send_activate_email_message
+    user = get_object_or_404(get_user_model(), id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 87, in get_object_or_404
+    raise Http404(
+django.http.response.Http404: No User matches the given query.
+[2024-04-09 22:20:15,967: INFO/MainProcess] Task women.tasks.send_activate_email_message_task[375c4ed0-5bf6-4191-badd-ce6b38e0b251] received
+[2024-04-09 22:20:16,021: ERROR/ForkPoolWorker-7] Task women.tasks.send_activate_email_message_task[375c4ed0-5bf6-4191-badd-ce6b38e0b251] raised unexpected: Http404('No User matches the given query.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+users.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/tasks.py", line 13, in send_activate_email_message_task
+    return send_activate_email_message(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/women/email.py", line 26, in send_activate_email_message
+    user = get_object_or_404(get_user_model(), id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 87, in get_object_or_404
+    raise Http404(
+django.http.response.Http404: No User matches the given query.

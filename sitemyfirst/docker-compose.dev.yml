@@ -21,11 +21,16 @@ services:
       - media:/app/media
     depends_on:
       - redis
+      - postgres
     command: sh -c "python manage.py collectstatic --no-input &&
+                    python manage.py makemigrations &&
+                    python manage.py migrate &&
+                    python db.py &&
+                    python manage.py loaddata db.json &&
                     python manage.py runserver 0.0.0.0:8000"
 
   nginx:
-    container_name: nginx
+    container_name: nginx_dj
     working_dir: /app
     image: nginx:stable-alpine
     restart: always
@@ -44,7 +49,7 @@ services:
 
   redis:
     image: redis:alpine
-    container_name: redis
+    container_name: redis_dj
     env_file:
       - docker/env/.env.dev
     environment:
@@ -78,3 +83,12 @@ services:
       volumes:
           - media:/app/media
           - ./:/app
+
+  postgres:
+    image: postgres:alpine
+    container_name: postgres_dj
+    restart: always
+    env_file:
+      - docker/env/.env.dev
+    volumes:
+      - pgdata:/var/lib/postgresql/data/

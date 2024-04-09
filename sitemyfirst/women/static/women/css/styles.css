@@ -133,7 +133,7 @@ time {
 
 .header {
 	background: #21201F;
-	height: 120px;
+	height: 122px;
 }
 
 .logo {
@@ -148,7 +148,7 @@ ul.mainmenu {
 	padding: 0;
 	height: 120px;
 	color: #21201F;
-	font-size: 25px;
+	font-size: 20px;
 	overflow: hidden;
 }
 ul.mainmenu li {
